@@ -1,0 +1,133 @@
+@media (max-width: 544px) {
+    header {
+        height: 50px;
+    }
+
+    header h1 {
+        width: 129px;
+        height: 16px;
+        margin-top: -8px;
+        background-image: url('../media/logo-mobile.jpg');
+    }
+    
+    header .menu {
+        width: 16px;
+        height: 15px;
+        margin-top: -7.5px;
+    }
+
+    header .menu a {
+        background-image: url('../media/icons/menu-mobile.jpg')
+    }
+
+/*----------------------------------- lista de noticias -----------------------------------*/
+section {
+    padding: 0;
+}
+
+section .titulo-secao {
+    margin: 16px;
+}
+
+ul li {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 16px;
+    border-bottom: 1px solid #cecece;
+}
+
+ul li p {
+    padding-right: 29px;
+}
+
+.grid li .cotNoticias {
+    width: 100%;
+}
+
+.grid li picture {
+    width:50%;
+}
+
+.grid div {
+    width: 50%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.grid div h3 {
+    font-size: 12px;
+}
+
+.grid .share {
+    margin: 0;
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+}
+
+#main ul li.destaque {
+    color:#000;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+#main ul li.destaque:first {
+    border: none;
+}
+
+#main ul .destaque div {
+    position: relative;
+    padding: 16px;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 23px;     
+}
+
+#main ul .destaque2 {
+    margin: 0 auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#main ul .destaque2 picture {
+    width: 33.334%;
+}
+
+#main ul .destaque2 div {
+    margin: 0; 
+    padding: 0 0 0 16px;
+}
+
+#main ul .destaque h2 {
+    color: #004861 ;
+}
+
+#main ul .destaque2 .share {
+    margin-left: 27%;
+    position: static;
+    display: block;
+}
+
+.maisNoticias {
+    border-width: 0 0 1px;
+}
+
+/*----------------------------------- Espaço de publicidade -----------------------------------*/
+    #advertising-space  {
+        margin: 0;
+        height: 100px;
+    }
+
+    #advertising-space picture {
+        max-width: 320px;
+        position: static;
+        margin: 0;
+        height: auto;
+        transform: inherit;
+    }
+}

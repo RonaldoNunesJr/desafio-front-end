@@ -1,0 +1,195 @@
+/*----------------------------------- lista de noticias -----------------------------------*/
+section {
+    padding:16px;
+}
+
+section .titulo-secao {
+    line-height: 32px;
+    margin: 0 16px;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #004761;
+}
+
+
+#Brasil .grid,
+#Mundo .grid {margin-top: -16px;}
+
+#Brasil .acordeon,
+#Mundo .acordeon {
+    margin-top: 0;
+}
+
+ul li {
+    width: 216px;
+    margin:16px;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    color: #000000;
+}
+
+ul li a.cotNoticias {
+    line-height: 21px;
+}
+
+ul li picture img {
+    width: 100%;
+}
+
+ul li h2 {
+    font-size:10px;
+    color: #004861;
+    text-transform: uppercase;
+}
+
+ul li h3 {font-size:18px;}
+
+ul li p {font-size:14px;}
+
+ul li .share {
+    width:24px;
+    height: 20px;
+    margin: 17px 0 0;
+    display: block;
+    background: url('../media/icons/share.png') no-repeat -24px 0;
+}
+
+#main ul [class*="destaque"] .share {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#main ul li.destaque {
+    width: 100%;
+    max-width: 464px;
+    color: #fff;
+}
+
+#main ul li.destaque a {
+    line-height: inherit; 
+}
+
+#main ul .destaque .share {
+    background-position:0 0;
+    top:11px;
+    right: 20px;
+}
+
+#main ul .destaque picture {
+    max-width:462px; 
+    width: 100%;
+    position: relative;
+}
+
+#main ul .destaque picture img {
+    width: 100%;
+}
+
+#main ul .destaque picture:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0,0), rgba(0, 0, 0, 0.8));
+}
+
+#main ul .destaque div {
+    width:100%;
+    position: absolute;
+    padding: 20px;
+    box-sizing: border-box;
+    left: 0;
+    bottom: 0;
+    line-height: 23px;     
+}
+
+#main ul .destaque h2 {color:#fff;}
+
+#main ul .destaque h3 {font-size: 20px;}
+
+#main ul li.destaque2 {
+    width:100%; 
+    max-width: 464px;
+}
+
+#main ul .destaque2 picture {
+    max-width:216px;
+}
+
+#main ul .destaque2 picture img {
+    width: 100%;
+}
+
+#main ul .destaque2 picture img {
+    width: 100%;
+}
+
+#main ul .destaque2 div {
+    width: 66.665%;;
+    max-width: 232px;
+    padding:0;
+    margin: 0 0 0 16px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+#main ul .destaque2 .share {
+    left: 232px;
+}
+
+.maisNoticias {
+    line-height:30px;
+    display: block;
+    padding: 0 16px;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 18px;
+    color: #004861;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: solid #e0e0e0;
+    border-width: 1px 0;
+}
+
+.maisNoticias:after {
+    content: ' +'
+}
+
+.maisNoticias.active:after {
+    content: ' -'
+}
+
+/*----------------------------------- Espaço de publicidade -----------------------------------*/
+
+#advertising-space {
+    width: 100%;
+    height: 150px;
+    margin: 16px 0;
+    padding: 0;
+    display: block;
+    position: relative;
+    text-align: center;
+    border: solid #ccc;
+    border-width: 1px 0 1px;
+    background-color: #eee;
+}
+
+#advertising-space picture {
+    width:100%; 
+    max-width: 728px;
+    height: 90px;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: relative;
+}
+
+#advertising-space picture img {width: 100%;}
